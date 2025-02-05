@@ -1,0 +1,22 @@
+{
+  "name": "mlezitom/nette-brevo-mailer",
+  "description": "Brevo mailer for Nette framework (formerly Sendinblue)",
+  "type": "library",
+  "require": {
+    "php": ">=8.1",
+    "nette/mail": "^3.1",
+    "getbrevo/brevo-php": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mlezitom\\NetteBrevoMailer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tomas Mleziva",
+      "email": "mlezivat@gmail.com"
+    }
+  ],
+  "license": "MIT"
+}
