@@ -23,7 +23,7 @@ parameters:
         apikey: xkeysib-xxxxxxxxxxxxxxxxxxxx
 
 services:
-    mail.mailer: Mlezitom\NetteBrevoMailer\BrevoMailer(%brevo.apikey%)  
+    mail.mailer: Mlezitom\NetteBrevoMailer\BrevoMailer(%brevo%)  
 ```
 
 Usage
